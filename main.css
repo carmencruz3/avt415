@@ -15,7 +15,7 @@ position: relative;
 Width:250;
 height: 250;
 background-color: darkred;
-
-
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
 
 }
