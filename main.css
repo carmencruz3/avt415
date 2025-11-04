@@ -9,6 +9,7 @@ height: 300px;
 background-color: ghostwhite;
 border-top-left-radius: 100px;
 border-top-right-radius: 100px;
+position: relative;
 }
 .g-face{
 Width:250;
