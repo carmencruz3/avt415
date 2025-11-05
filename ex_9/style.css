@@ -2,5 +2,5 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-	background: radial-gradient(ellipse at center, #000000 0%, #850101, 30%);
+	background: radial-gradient(ellipse at center, #000000 100%, #850101, 30%);
 	margin: 0;
