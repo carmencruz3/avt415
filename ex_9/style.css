@@ -2,5 +2,161 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-	background: radial-gradient(ellipse at center, #000000 100%, #850101, 30%);
-	margin: 0;
+	background-color: black;
+	justify-content: center;
+	align-content: center;
+	overflow: hidden;
+}
+.g-head{
+	height:400px;
+	width:300px;
+	background-color: ghostwhite;
+	border-radius: 70%/110%;
+	position: relative;
+	box-shadow: inset 0 0px 20pc #850101;
+	animation: float 3s infinite;
+}
+.g-right-eye{
+	height: 100px;
+	width: 10px;
+	background-color: darkred;
+	border-radius: 70%/110%;
+	position: absolute;
+	stroke: 50px;
+	top: 250px;
+	left: 60px;
+}
+.g-left-eye{
+	height: 100px;
+	width: 10px;
+	background-color: darkred;
+	border-radius: 70%/110%;
+	position: absolute;
+	stroke: 50px;
+	top: 250px;
+	left: 230px;
+}
+.g-jaw{
+
+	height: 200px;
+	width: 250px;
+	background-color: black;
+	border-top-right-radius:20%;
+	border-top-left-radius:20%;
+	border-bottom-left-radius: 20%;
+	position: absolute;
+	top:380px;
+	left:35px;
+}
+.g-jaw-upper{
+	height: 50px;
+	width: 200px;
+	background-color: gray;
+	position: absolute;
+	box-shadow: inset 0 0px 20pc #E1C16E;
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	top:390px;
+	left:60px;
+	animation: moving down linear infinite;
+	@keyframes chomp{
+		0%{
+			top: 390px;
+
+		}
+		100%{
+			top: 270px;
+		}
+	}
+}
+.g-jaw-lower{
+	height: 50px;
+	width: 200px;
+	background-color: gray;
+	position: absolute;
+	box-shadow: inset 0 0px 20pc #E1C16E;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+	top:520px;
+	left:60px;
+}
+.g-upper-teeth-gap-1{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:390px;
+	left:70px;
+}
+.g-upper-teeth-gap-2{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:390px;
+	left:110px;
+}
+.g-upper-teeth-gap-3{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:390px;
+	left:150px;
+}
+.g-upper-teeth-gap-4{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:390px;
+	left:200px;
+}
+.g-upper-teeth-gap-5{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:390px;
+	left:240px;
+}
+.g-lower-teeth-gap-1{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:520px;
+	left:70px;
+}
+.g-lower-teeth-gap-2{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:520px;
+	left:110px;
+}
+.g-lower-teeth-gap-3{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:520px;
+	left:150px;
+}
+.g-lower-teeth-gap-4{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:520px;
+	left:200px;
+}
+.g-lower-teeth-gap-5{
+	height: 50px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	top:520px;
+	left:240px;
+}
